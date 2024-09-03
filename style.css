@@ -1,0 +1,51 @@
+body {
+    background: url('https://image.shutterstock.com/image-illustration/abstract-technology-digital-futuristic-background-260nw-1142368496.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 2px #000;
+}
+
+.login-box h2 {
+    color: #00cccc;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #ffffff;
+}
+
+#forgot-password {
+    color: #00cccc;
+    text-decoration: none;
+}
+
+#forgot-password:hover {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #00cccc;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #008080;
+}
